@@ -49,11 +49,9 @@ nav{
     font-size:80px;
 }
 #date{
-    position:
     list-style: none;
     top:0;
-
-    color:red;
+    position:0 0;
     border: px;
     padding:px;
     display:grid;

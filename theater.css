@@ -45,31 +45,34 @@ nav{
 .main-text{
     display:flex;
     color:white;
-    justify-content: center;
-    font-size-adjust: 500px;
+    justify-content: space-around;
+    font-size:80px;
 }
 #date{
-    padding: 50px;
-    border: 1px solid black;
+    position:
+    list-style: none;
+    top:0;
+
     color:red;
-    width:70%
-    height: 0px;
-    padding:5px;
-    align-content: 5rem;
+    border: px;
+    padding:px;
     display:grid;
-    grid-templete-start: ;
+    grid-template-columns: 20% 50%;
 }
 
 #center{
     display: grid;
-    grid-template-columns: 40% 40% 40%;
-    grid-template-rows: 10% 10% 10%;
+    grid-template-columns: 16% 30% 30% 30%;
+    grid-template-rows: 50% 10% 10%;
     list-style: none;
-    justify-content: space-around
-    grid-column-end: 3;
+    justify-content: center;
+    align-items: center;
+
 }
+
+
 .mid{
-    gird-column-start:53333;
+    gird-column-start:;
 }
 
 

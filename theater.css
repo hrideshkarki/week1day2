@@ -40,28 +40,36 @@ nav{
     padding:25%;
     background-position: 0 0;
     color:white;
-    text-align: end;
 }
 
 .main-text{
     display:flex;
     color:white;
-    align-items: center;
     justify-content: center;
-    size:500px;
-
+    font-size-adjust: 500px;
 }
 #date{
-
-    width:70%
-    height: 30px;
     padding: 50px;
     border: 1px solid black;
+    color:red;
+    width:70%
+    height: 0px;
     padding:5px;
     align-content: 5rem;
+    display:grid;
+    grid-templete-start: ;
 }
 
 #center{
-    
+    display: grid;
+    grid-template-columns: 40% 40% 40%;
+    grid-template-rows: 10% 10% 10%;
+    list-style: none;
+    justify-content: space-around
+    grid-column-end: 3;
 }
+.mid{
+    gird-column-start:53333;
+}
+
 

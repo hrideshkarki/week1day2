@@ -22,8 +22,6 @@ nav{
     display:flex;
     justify-content:flex-end;
     align-items:center;
-    
-    
 }
 
 
@@ -32,17 +30,27 @@ nav{
     color:white;
     font-size: 12px;
     transform: translate(-50%,-50%);
-
 }
 
 #main-img{
     background-image: url(1.jpeg);
-    text-align: center;
-    align-content: ;
-    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:25%;
+    background-position: 0 0;
     color:white;
+    text-align: end;
 }
 
+.main-text{
+    display:flex;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    size:500px;
+
+}
 #date{
 
     width:70%
@@ -51,7 +59,6 @@ nav{
     border: 1px solid black;
     padding:5px;
     align-content: 5rem;
-
 }
 
 #center{
